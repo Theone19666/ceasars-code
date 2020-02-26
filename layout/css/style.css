@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    background-image: url(../img/background.png);
+}
+.wrapper {
+    width: 337px;
+    margin: 28px auto;
+}
+.header {
+    background-color: #03a9f4;
+    background-image: url(../img/key\ icon.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 61px;
+    padding: 15px 0 14px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+}
+.header__keyImg {
+    margin-right: 8px;
+}
+.main {
+    background-color: #fafafa;
+    padding: 31px 30px 30px 31px;
+}
+.inputWrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+.input {
+    width: 100%;
+    border: 2px solid #e0e0e0;
+    padding: 15px 31px 14px 6px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: 242px center;
+}
+.input_email {
+    background-image: url(../img/email\ icon.png);
+}
+.input_text {
+    background-image: url(../img/lock\ icon.png);
+}
+.label {
+    position: absolute;
+    top: 30%;
+    left: 7px;
+    color: #eeeeee;
+    font-size: 16px;
+}
+.button {
+    width: 100%;
+    background-color: #f44336;
+    color: white;
+    padding: 15px 0 17px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 16px;
+}
+.footer {
+    background-color: #eeeeee;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.link_registration {
+    margin-right: 15px;
+}
+.link_forget {
+    font-weight: 300;
+}
+.element_hidden {
+    display: none;
+}
+@media all and (max-width: 376px) {
+    .wrapper {
+        width: 300px;
+    }
+    .header {
+        background-image: none;
+    }
+    .input {
+        background-image: none;
+    }
+}
